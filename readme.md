@@ -25,3 +25,8 @@ Set-up database models for users having the following roles
 
 * modify:results
 * delete:results
+
+
+## API Documentation
+
+This API would be consumed by Frontend APPs

@@ -6,13 +6,13 @@ from flask import Flask, request, abort, jsonify
 from flask_sqlalchemy import Model, SQLAlchemy
 from flask_cors import CORS, cross_origin
 
-from models import setup_db
+# from models import setup_db
 
 
 def create_app(test_config=None):
     """Create and configure API"""
     app = Flask(__name__)
-    setup_db(app)
+    # setup_db(app)
 
 
     # @TODO: Set up CORS. Allow '*' for origins. Delete the sample route after completing the TODOs

@@ -17,3 +17,5 @@ pytz==2019.1
 six==1.12.0
 SQLAlchemy==1.3.4
 Werkzeug==2.2.2
+pyjwt
+uuid

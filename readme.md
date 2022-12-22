@@ -1,14 +1,16 @@
-# GitHub Codespaces ♥️ Flask
+# API for Results Web Application
 
-Development Environment: VS Code on GitPod
+This API would be consumed by Frontend APPs.
+
+## Development Environment: VS Code on GitPod
 
 To run this application:
 
 ``` flask --app school --debug run ```
 
-## TODO's
+## Database Model
 
-Set-up database models for users having the following roles
+A ```user``` table was created for the system having the following roles:
 
 * Student - This entity describes a student in a school. Each student has fields for Names, Sex, Access Code, Admission Number, etc.
 
@@ -35,23 +37,33 @@ Set-up database models for users having the following roles
 The following are the roles and permissions assigned to users in the system
 
 * Student
-```get::student-result```
+
+ ```get::student-result```
+
 ```get::student-details```
 
 * Admin
+
 ```get::student-result```
+
 ```get::student-details```
+
 ```write::student-result```
+
 ```write::student-details```
 
 * YearHeads
+
 ```get::student-details```
+
 ```write::student-details```
 
 * Teachers
+
 ```get::student-result```
+
 ```write::student-result```
 
 ## API Documentation
 
-This API would be consumed by Frontend APPs
+
